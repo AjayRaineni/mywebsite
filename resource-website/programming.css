@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color:white ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0,0.15);
+    z-index: 999;
+
+}
+nav img{
+    width: 150px;
+    cursor: pointer
+    ;
+}
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center ;
+}
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+
+}
+nav .navigation ul li a:hover{
+color: #f9004d;
+}
+#programming{
+    padding: 7vw 3vw;
+    background-image: linear-gradient(rgba(217, 216, 228, 0.3),rgba(110, 109, 185, 0.7)),url(images/altumcode-XMFZqrGyV-Q-unsplash\(1\).jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+#progranning h1{
+    padding: 1vw 1vw;
+}
+#programming h2{
+    padding:1vw 1vw ;
+}
+#programming p{
+    padding:1vw 1vw ;
+}
+
+#programming ul p{
+    padding: 3vw 1vw;
+}
+
+
+
+#webdevelopment{
+    padding: 7vw 3vw;
+    background-image: linear-gradient(rgba(217, 216, 228, 0.3),rgba(110, 109, 185, 0.7)),url(images/danial-igdery-FCHlYvR5gJI-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+}
+#webdevelopment h2{
+
+    padding:3vw 1vw ;
+}
+#webdevelopment p{
+    padding:0.3vw 1vw ;
+}
+#webdevelopment ol li{
+    padding:0.3vw 1vw ;
+}
+#webdevelopment ul li{
+    padding:0.3vw 1vw ;
+}
+
+#lastthing{
+    padding: 7vw 3vw;
+    background-image: linear-gradient(rgba(217, 216, 228, 0.3),rgba(110, 109, 185, 0.7)),url(images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+#lastthing h2{
+    
+    
+    padding:1vw 3vw ;
+
+}
+#lastthing p{
+    
+    
+    padding:1vw 3vw ;
+
+}
+#lastthing ol li{
+    
+    
+    padding:0.3vw 3vw ;
+
+}
+#lastthing ul li{
+    
+    
+    padding:0.3vw 3vw ;
+
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(35, 35, 85);
+
+}
+h2{
+    font-size: 2.0rem;
+    font-weight: 600;
+    color: rgb(35, 35, 85);
+
+}
+p{
+    font-size: 1.5rem;
+    color:white;
+
+    
+}
+h3{ 
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: white;
+}
+#programming  ul li{
+    font-size: 1.5rem;
+    color: white;
+    padding:0.5vw 1vw ;
+
+}
+#languages{
+    background: black;
+    width: 100%;
+    height: 50vh;
+}
+#languages h1{
+    padding:1vw 1vw ;
+}
+#languages h2{
+    padding:1vw 1vw ;
+}
+
+
+
+#languages ul li{
+    font-size: 1.5rem;
+    color: white;
+    padding:0.5vw 1vw ;
+  
+}
+#webdevelopment ol li{
+    font-size: 1.5rem;
+    color:white;
+}
+#webdevelopment ul li{
+    font-size: 1.5rem;
+    color: white;
+}
+#lastthing ol li{
+    font-size: 1.5rem;
+    color: white;
+}
+#lastthing ul li{
+    font-size: 1.5rem;
+    color: white;
+    
+}
+#java{
+    background: black;
+    width: 100%;
+    height: 35vh;
+}
+#java h2{
+    padding:1vw 1vw ;
+    text-align: center;
+}
+
+
+
+#java ul li{
+    font-size: 1.5rem;
+    color: white;
+    background: black
+    ;
+    padding:0.5vw 1vw ;
+}
+#c {
+    background: black;
+    width: 100%;
+    height: 30vh;
+    font-size: 1.5rem;
+    color: white;
+    padding:1vw 1vw ;
+
+}
+#c h2{
+    padding:1vw 1vw ;
+
+
+
+  
+
+}
+#c br{
+    padding:1vw 1vw ;
+}
+
+
+#resources1{
+    background: white;
+    width: 100%;
+    height: 50vh;
+    
+}
+#resources2{
+    background: white;
+    width: 100%;
+    height: 50vh;
+}
+#resources3{
+    background: white;
+    width: 100%;
+    height: 50vh;
+}
+#resources1 a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 0px 9px 9px;
+    width: 30%;
+    padding: 1px 3px ;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 10px; 
+    color: white;
+    background: rgb(21, 21, 100);
+    transition: 0.3s ease;
+
+    
+    display: inline-flex;
+}
+#resources2 a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 0px 9px 9px;
+    width: 30%;
+    padding: 1px 3px ;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 10px; 
+    color: white;
+    background: rgb(21, 21, 100);
+    transition: 0.3s ease;
+
+    
+    display: inline-flex;
+}
+#resources3 a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 0px 9px 9px;
+    width: 30%;
+    padding: 1px 3px ;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 10px; 
+    color: white;
+    background: rgb(21, 21, 100);
+    transition: 0.3s ease;
+
+    
+    display: inline-flex;
+  
+
+    
+}
+#resources4{
+    background: white;
+    width: 100%;
+    height: 50vh;
+}
+#resources4 a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 0px 9px 9px;
+    width: 30%;
+    padding: 1px 3px ;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 10px; 
+    color: white;
+    background: rgb(21, 21, 100);
+    transition: 0.3s ease;
+
+    
+    display: inline-flex;
+
+}
+#resources5{
+    background: white;
+    width: 100%;
+    height: 50vh;
+}
+#resources5 a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 0px 9px 9px;
+    width: 30%;
+    padding: 1px 3px ;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 10px; 
+    color: white;
+    background: rgb(21, 21, 100);
+    transition: 0.3s ease;
+
+    
+    display: inline-flex;
+
